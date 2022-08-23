@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section{
+    background-image: url("../images/donation5.jpg");
+    height: 669px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-info{
+    height: 320px;
+    width: 826px;
+    color:rgb(246, 241, 241);
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #FF5959;
+    color:white;
+    font-weight: 700;
+}
+
+
+.middle-section, .plan-section{
+    height: 660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donate-info{
+    width: 55%;
+    text-align: center;
+}
+.donate-money{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+.box{
+    height: 115px;
+    width: 120px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.box:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#highlight{
+    border:1px solid #FF5959;
+    color: #FF5959;
+    border-radius: 5px;
+
+}
+.box p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#amount-input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(200, 197, 197);
+    text-align: center;
+    margin: 50px;
+    font-size: 18px;
+}
+
+.plan-info{
+    width: 80%;
+    text-align: center;
+}
+.card-area{
+    display: flex;
+}
+.card{
+    height: 30%;
+    width: 30%;
+    text-align: left;
+    border: 1px solid rebeccapurple;
+    padding: 20px;
+    margin:40px 10px;   
+}
+.card img{
+    width: 58px;
+}
+#one{
+    background-color: #8ad7e0;
+}
+#two{
+    background-color: #ef9c9c;
+}
+#three{
+    background-color: peachpuff;
+}
+
+.quote-section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.email-section{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 809px;
+    height: 200px;
+    background-color: peachpuff;
+}
+.email-info{
+    text-align: center;
+}
+.email{
+    margin: 70px 0;
+}
+#email-input{
+    width: 275px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: rgb(221, 208, 208);
+    border: none;
+    color: white;
+}
+
+footer{
+    height: 177px;
+    text-align: center;
+    color: #FF5959;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
